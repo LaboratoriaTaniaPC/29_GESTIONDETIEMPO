@@ -1,3 +1,10 @@
+/*
+	@uthor: Tania Patiño
+	date: 25-08-16
+	version: 3.0
+	excercise: gestión de tiempo
+	references:http://www.w3schools.com/bootstrap/
+*/
 
 .fondo{
 
@@ -9,9 +16,40 @@
 
 }
 
-
 .caja{
 
    display: inline-block;
 
 }
+
+.color-letra{
+
+	color: black;
+}
+
+/*
+Con este efecto puedes crear la ilusión de que el botón se 
+esta llenado desde algún lado del elemento hasta completar 
+el contenido del botón.
+*/
+
+.button{
+
+ border: none;
+ background: #3a7999;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ position: relative;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+
+}
+
+/*img {
+	width: 250px;
+	height: 350px;
+	margin-top: -195px;
+	margin-left: -290px;
+}*/
