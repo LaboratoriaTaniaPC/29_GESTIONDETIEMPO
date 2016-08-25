@@ -1,6 +1,17 @@
-.tamaño{
-	
 
+.fondo{
+
+	background-image: url("../img/back.jpg");
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding: 1%;
 
 }
 
+
+.caja{
+
+   display: inline-block;
+
+}
